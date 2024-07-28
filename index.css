@@ -12,3 +12,30 @@ body{
     width: 300px;
     margin: 100px auto 0;
 }
+
+.select-option{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    align-items: center;
+    padding: 0 18px;
+    font-size: 20;
+
+}
+
+.select-option i{
+    font-size: 25px;
+    transition: transform 0.3 linear;
+}
+
+.container.active .select-option i{
+    transform: rotate(-180deg);
+}
+
+.list-search-container{
+    background-color: #fff;
+    
+}
